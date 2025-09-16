@@ -1,0 +1,35 @@
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/condabin/conda
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/conda
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/conda-env
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/activate
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/deactivate
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/etc/profile.d/conda.sh
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/etc/fish/conf.d/conda.fish
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/shell/condabin/Conda.psm1
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/shell/condabin/conda-hook.ps1
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/etc/profile.d/conda.csh
+no change     /home/amekala_umass_edu/.bashrc
+No action taken.
+Wed Mar 19 20:29:36 EDT 2025
+INFO 03-20 00:29:44 __init__.py:183] Automatically detected platform cuda.
+--------------------------------------------------------------------------------
+Attempting to intialize model on all available 1 GPU(s) from /scratch3/workspace/amekala_umass_edu-quantized_models2/hub/models--Qwen--Qwen2.5-32B-Instruct-GPTQ-Int4/snapshots/c83e67dfb2664f5039fd4cd99e206799e27dd800:
+--------------------------------------------------------------------------------
+INFO 03-20 00:30:16 config.py:520] This model supports multiple tasks: {'reward', 'generate', 'embed', 'classify', 'score'}. Defaulting to 'generate'.
+INFO 03-20 00:30:17 gptq_marlin.py:109] The model is convertible to gptq_marlin during runtime. Using gptq_marlin kernel.
+INFO 03-20 00:30:17 llm_engine.py:232] Initializing an LLM engine (v0.7.0) with config: model='/scratch3/workspace/amekala_umass_edu-quantized_models2/hub/models--Qwen--Qwen2.5-32B-Instruct-GPTQ-Int4/snapshots/c83e67dfb2664f5039fd4cd99e206799e27dd800', speculative_config=None, tokenizer='/scratch3/workspace/amekala_umass_edu-quantized_models2/hub/models--Qwen--Qwen2.5-32B-Instruct-GPTQ-Int4/snapshots/c83e67dfb2664f5039fd4cd99e206799e27dd800', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.float16, max_seq_len=10000, download_dir='/scratch3/workspace/amekala_umass_edu-quantized_models2/hub/', load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=gptq_marlin, enforce_eager=False, kv_cache_dtype=auto,  device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='xgrammar'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=0, served_model_name=/scratch3/workspace/amekala_umass_edu-quantized_models2/hub/models--Qwen--Qwen2.5-32B-Instruct-GPTQ-Int4/snapshots/c83e67dfb2664f5039fd4cd99e206799e27dd800, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=False, chunked_prefill_enabled=False, use_async_output_proc=True, disable_mm_preprocessor_cache=False, mm_processor_kwargs=None, pooler_config=None, compilation_config={"splitting_ops":[],"compile_sizes":[],"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"max_capture_size":256}, use_cached_outputs=False, 
+INFO 03-20 00:30:18 cuda.py:225] Using Flash Attention backend.
+INFO 03-20 00:30:18 model_runner.py:1110] Starting to load model /scratch3/workspace/amekala_umass_edu-quantized_models2/hub/models--Qwen--Qwen2.5-32B-Instruct-GPTQ-Int4/snapshots/c83e67dfb2664f5039fd4cd99e206799e27dd800...
+INFO 03-20 00:30:18 gptq_marlin.py:200] Using MarlinLinearKernel for GPTQMarlinLinearMethod
+INFO 03-20 00:31:10 model_runner.py:1115] Loading model weights took 18.0193 GB
+INFO 03-20 00:31:14 worker.py:266] Memory profiling takes 3.55 seconds
+INFO 03-20 00:31:14 worker.py:266] the current vLLM instance can use total_gpu_memory (79.14GiB) x gpu_memory_utilization (0.90) = 71.22GiB
+INFO 03-20 00:31:14 worker.py:266] model weights take 18.02GiB; non_torch_memory takes 0.09GiB; PyTorch activation peak memory takes 2.46GiB; the rest of the memory reserved for KV Cache is 50.65GiB.
+INFO 03-20 00:31:14 executor_base.py:108] # CUDA blocks: 12966, # CPU blocks: 1024
+INFO 03-20 00:31:14 executor_base.py:113] Maximum concurrency for 10000 tokens per request: 20.75x
+INFO 03-20 00:31:16 model_runner.py:1430] Capturing cudagraphs for decoding. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI. If out-of-memory error occurs during cudagraph capture, consider decreasing `gpu_memory_utilization` or switching to eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 03-20 00:31:29 model_runner.py:1558] Graph capturing finished in 13 secs, took 0.45 GiB
+INFO 03-20 00:31:29 llm_engine.py:429] init engine (profile, create kv cache, warmup model) took 18.90 seconds
+------------------------------------------------------------ MODEL LOADED ------------------------------------------------------------
+Wed Mar 19 20:34:08 EDT 2025

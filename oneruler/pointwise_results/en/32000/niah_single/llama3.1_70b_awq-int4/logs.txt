@@ -1,0 +1,60 @@
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/condabin/conda
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/conda
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/conda-env
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/activate
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/deactivate
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/etc/profile.d/conda.sh
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/etc/fish/conf.d/conda.fish
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/shell/condabin/Conda.psm1
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/shell/condabin/conda-hook.ps1
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/etc/profile.d/conda.csh
+no change     /home/amekala_umass_edu/.bashrc
+No action taken.
+Wed Mar 19 22:20:16 EDT 2025
+INFO 03-20 02:20:25 __init__.py:183] Automatically detected platform cuda.
+--------------------------------------------------------------------------------
+Attempting to intialize model on all available 2 GPU(s) from hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4:
+--------------------------------------------------------------------------------
+INFO 03-20 02:21:00 config.py:520] This model supports multiple tasks: {'generate', 'score', 'reward', 'embed', 'classify'}. Defaulting to 'generate'.
+INFO 03-20 02:21:01 awq_marlin.py:109] The model is convertible to awq_marlin during runtime. Using awq_marlin kernel.
+INFO 03-20 02:21:01 config.py:1328] Defaulting to use mp for distributed inference
+WARNING 03-20 02:21:01 arg_utils.py:1107] Chunked prefill is enabled by default for models with max_model_len > 32K. Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.
+INFO 03-20 02:21:01 config.py:1483] Chunked prefill is enabled with max_num_batched_tokens=2048.
+INFO 03-20 02:21:01 llm_engine.py:232] Initializing an LLM engine (v0.7.0) with config: model='hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4', speculative_config=None, tokenizer='hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.float16, max_seq_len=34000, download_dir='/scratch3/workspace/amekala_umass_edu-quantized_models2/hub/', load_format=LoadFormat.AUTO, tensor_parallel_size=2, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=awq_marlin, enforce_eager=False, kv_cache_dtype=auto,  device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='xgrammar'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=0, served_model_name=hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=False, chunked_prefill_enabled=True, use_async_output_proc=True, disable_mm_preprocessor_cache=False, mm_processor_kwargs=None, pooler_config=None, compilation_config={"splitting_ops":[],"compile_sizes":[],"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"max_capture_size":256}, use_cached_outputs=False, 
+WARNING 03-20 02:21:02 multiproc_worker_utils.py:298] Reducing Torch parallelism from 2 threads to 1 to avoid unnecessary CPU contention. Set OMP_NUM_THREADS in the external environment to tune this value as needed.
+INFO 03-20 02:21:02 custom_cache_manager.py:17] Setting Triton cache manager to: vllm.triton_utils.custom_cache_manager:CustomCacheManager
+INFO 03-20 02:21:02 cuda.py:225] Using Flash Attention backend.
+INFO 03-20 02:21:07 __init__.py:183] Automatically detected platform cuda.
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:21:09 multiproc_worker_utils.py:227] Worker ready; awaiting tasks
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:21:09 cuda.py:225] Using Flash Attention backend.
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:21:11 utils.py:938] Found nccl from library libnccl.so.2
+INFO 03-20 02:21:11 utils.py:938] Found nccl from library libnccl.so.2
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:21:11 pynccl.py:67] vLLM is using nccl==2.21.5
+INFO 03-20 02:21:11 pynccl.py:67] vLLM is using nccl==2.21.5
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:21:12 custom_all_reduce_utils.py:242] reading GPU P2P access cache from /home/amekala_umass_edu/.cache/vllm/gpu_p2p_access_cache_for_0,1.json
+INFO 03-20 02:21:12 custom_all_reduce_utils.py:242] reading GPU P2P access cache from /home/amekala_umass_edu/.cache/vllm/gpu_p2p_access_cache_for_0,1.json
+INFO 03-20 02:21:12 shm_broadcast.py:256] vLLM message queue communication handle: Handle(connect_ip='127.0.0.1', local_reader_ranks=[1], buffer_handle=(1, 4194304, 6, 'psm_83503ea8'), local_subscribe_port=40493, remote_subscribe_port=None)
+INFO 03-20 02:21:12 model_runner.py:1110] Starting to load model hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4...
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:21:12 model_runner.py:1110] Starting to load model hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4...
+INFO 03-20 02:21:13 weight_utils.py:251] Using model weights format ['*.safetensors']
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:21:13 weight_utils.py:251] Using model weights format ['*.safetensors']
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:23:07 model_runner.py:1115] Loading model weights took 18.5801 GB
+INFO 03-20 02:23:07 model_runner.py:1115] Loading model weights took 18.5801 GB
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:23:13 worker.py:266] Memory profiling takes 5.26 seconds
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:23:13 worker.py:266] the current vLLM instance can use total_gpu_memory (79.14GiB) x gpu_memory_utilization (0.90) = 71.22GiB
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:23:13 worker.py:266] model weights take 18.58GiB; non_torch_memory takes 1.54GiB; PyTorch activation peak memory takes 0.34GiB; the rest of the memory reserved for KV Cache is 50.76GiB.
+INFO 03-20 02:23:13 worker.py:266] Memory profiling takes 5.36 seconds
+INFO 03-20 02:23:13 worker.py:266] the current vLLM instance can use total_gpu_memory (79.14GiB) x gpu_memory_utilization (0.90) = 71.22GiB
+INFO 03-20 02:23:13 worker.py:266] model weights take 18.58GiB; non_torch_memory takes 1.54GiB; PyTorch activation peak memory takes 1.20GiB; the rest of the memory reserved for KV Cache is 49.90GiB.
+INFO 03-20 02:23:13 executor_base.py:108] # CUDA blocks: 20439, # CPU blocks: 1638
+INFO 03-20 02:23:13 executor_base.py:113] Maximum concurrency for 34000 tokens per request: 9.62x
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:23:18 model_runner.py:1430] Capturing cudagraphs for decoding. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI. If out-of-memory error occurs during cudagraph capture, consider decreasing `gpu_memory_utilization` or switching to eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 03-20 02:23:18 model_runner.py:1430] Capturing cudagraphs for decoding. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI. If out-of-memory error occurs during cudagraph capture, consider decreasing `gpu_memory_utilization` or switching to eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 03-20 02:23:46 custom_all_reduce.py:224] Registering 5635 cuda graph addresses
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:23:46 custom_all_reduce.py:224] Registering 5635 cuda graph addresses
+INFO 03-20 02:23:47 model_runner.py:1558] Graph capturing finished in 28 secs, took 0.50 GiB
+[1;36m(VllmWorkerProcess pid=4005949)[0;0m INFO 03-20 02:23:47 model_runner.py:1558] Graph capturing finished in 28 secs, took 0.50 GiB
+INFO 03-20 02:23:47 llm_engine.py:429] init engine (profile, create kv cache, warmup model) took 39.38 seconds
+------------------------------------------------------------ MODEL LOADED ------------------------------------------------------------
+Wed Mar 19 22:23:53 EDT 2025

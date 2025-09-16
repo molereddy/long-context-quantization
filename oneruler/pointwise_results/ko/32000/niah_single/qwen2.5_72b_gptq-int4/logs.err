@@ -1,0 +1,8 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+2025-03-20 02:38:16,518	INFO worker.py:1812 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'original_max_position_embeddings'}
+slurmstepd-gpu020: error: *** JOB 29980822 ON gpu020 CANCELLED AT 2025-03-20T02:38:50 ***
+slurmstepd-gpu020: error: container_p_join: open failed for /var/tmp//gpu020/29980822/.ns: No such file or directory
+slurmstepd-gpu020: error: container_g_join(29980822): No such file or directory

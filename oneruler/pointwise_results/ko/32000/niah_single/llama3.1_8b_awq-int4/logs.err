@@ -1,0 +1,162 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+2025-03-20 01:48:25,600	INFO worker.py:1812 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+[rank0]:     response = conn.getresponse()
+[rank0]:                ^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/urllib3/connection.py", line 507, in getresponse
+[rank0]:     httplib_response = super().getresponse()
+[rank0]:                        ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/http/client.py", line 1395, in getresponse
+[rank0]:     response.begin()
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/http/client.py", line 325, in begin
+[rank0]:     version, status, reason = self._read_status()
+[rank0]:                               ^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/http/client.py", line 286, in _read_status
+[rank0]:     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+[rank0]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/socket.py", line 718, in readinto
+[rank0]:     return self._sock.recv_into(b)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/ssl.py", line 1314, in recv_into
+[rank0]:     return self.read(nbytes, buffer)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/ssl.py", line 1166, in read
+[rank0]:     return self._sslobj.read(len, buffer)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: TimeoutError: The read operation timed out
+
+[rank0]: The above exception was the direct cause of the following exception:
+
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+[rank0]:     resp = conn.urlopen(
+[rank0]:            ^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+[rank0]:     retries = retries.increment(
+[rank0]:               ^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/urllib3/util/retry.py", line 474, in increment
+[rank0]:     raise reraise(type(error), error, _stacktrace)
+[rank0]:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+[rank0]:     raise value
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+[rank0]:     response = self._make_request(
+[rank0]:                ^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/urllib3/connectionpool.py", line 538, in _make_request
+[rank0]:     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/urllib3/connectionpool.py", line 369, in _raise_timeout
+[rank0]:     raise ReadTimeoutError(
+[rank0]: urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)
+
+[rank0]: During handling of the above exception, another exception occurred:
+
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/oneruler/OneRuler/ruler.py", line 116, in <module>
+[rank0]:     llm, tokenizer = load_model_and_tokenizer(args.model_short_name, context_size=args.ctx+extra_tokens)
+[rank0]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/vq/load_and_generate.py", line 434, in load_model_and_tokenizer
+[rank0]:     _, model, tokenizer = get_vllm_model(hf_cfg, max_seq_len=context_size)
+[rank0]:                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/vq/load_and_generate.py", line 371, in get_vllm_model
+[rank0]:     llm = LLM(model=model_id, tensor_parallel_size=num_gpus, 
+[rank0]:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/utils.py", line 1039, in inner
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/entrypoints/llm.py", line 239, in __init__
+[rank0]:     self.llm_engine = self.engine_class.from_engine_args(
+[rank0]:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/engine/llm_engine.py", line 482, in from_engine_args
+[rank0]:     engine = cls(
+[rank0]:              ^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/engine/llm_engine.py", line 271, in __init__
+[rank0]:     self.model_executor = executor_class(vllm_config=vllm_config, )
+[rank0]:                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/executor/executor_base.py", line 49, in __init__
+[rank0]:     self._init_executor()
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/executor/uniproc_executor.py", line 40, in _init_executor
+[rank0]:     self.collective_rpc("load_model")
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/executor/uniproc_executor.py", line 49, in collective_rpc
+[rank0]:     answer = run_method(self.driver_worker, method, args, kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/utils.py", line 2208, in run_method
+[rank0]:     return func(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/worker/worker.py", line 182, in load_model
+[rank0]:     self.model_runner.load_model()
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/worker/model_runner.py", line 1112, in load_model
+[rank0]:     self.model = get_model(vllm_config=self.vllm_config)
+[rank0]:                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/model_loader/__init__.py", line 12, in get_model
+[rank0]:     return loader.load_model(vllm_config=vllm_config)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/model_loader/loader.py", line 379, in load_model
+[rank0]:     loaded_weights = model.load_weights(
+[rank0]:                      ^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/models/llama.py", line 564, in load_weights
+[rank0]:     return loader.load_weights(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/models/utils.py", line 233, in load_weights
+[rank0]:     autoloaded_weights = set(self._load_module("", self.module, weights))
+[rank0]:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/models/utils.py", line 185, in _load_module
+[rank0]:     for child_prefix, child_weights in self._groupby_prefix(weights):
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/models/utils.py", line 99, in _groupby_prefix
+[rank0]:     for prefix, group in itertools.groupby(weights_by_parts,
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/models/utils.py", line 96, in <genexpr>
+[rank0]:     weights_by_parts = ((weight_name.split(".", 1), weight_data)
+[rank0]:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/models/llama.py", line 564, in <genexpr>
+[rank0]:     return loader.load_weights(
+[rank0]:                               ^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/model_loader/loader.py", line 354, in _get_all_weights
+[rank0]:     yield from self._get_weights_iterator(primary_weights)
+[rank0]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/model_loader/loader.py", line 307, in _get_weights_iterator
+[rank0]:     hf_folder, hf_weights_files, use_safetensors = self._prepare_weights(
+[rank0]:                                                    ^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/model_loader/loader.py", line 260, in _prepare_weights
+[rank0]:     hf_folder = download_weights_from_hf(
+[rank0]:                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/model_executor/model_loader/weight_utils.py", line 242, in download_weights_from_hf
+[rank0]:     file_list = fs.ls(model_name_or_path, detail=False, revision=revision)
+[rank0]:                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/huggingface_hub/hf_file_system.py", line 280, in ls
+[rank0]:     resolved_path = self.resolve_path(path, revision=revision)
+[rank0]:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/huggingface_hub/hf_file_system.py", line 186, in resolve_path
+[rank0]:     repo_and_revision_exist, err = self._repo_and_revision_exist(repo_type, repo_id, revision)
+[rank0]:                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/huggingface_hub/hf_file_system.py", line 121, in _repo_and_revision_exist
+[rank0]:     self._api.repo_info(
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/huggingface_hub/hf_api.py", line 2756, in repo_info
+[rank0]:     return method(
+[rank0]:            ^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/huggingface_hub/hf_api.py", line 2540, in model_info
+[rank0]:     r = get_session().get(path, headers=headers, timeout=timeout, params=params)
+[rank0]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/requests/sessions.py", line 602, in get
+[rank0]:     return self.request("GET", url, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+[rank0]:     resp = self.send(prep, **send_kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+[rank0]:     r = adapter.send(request, **kwargs)
+[rank0]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/huggingface_hub/utils/_http.py", line 93, in send
+[rank0]:     return super().send(request, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/requests/adapters.py", line 713, in send
+[rank0]:     raise ReadTimeout(e, request=request)
+[rank0]: requests.exceptions.ReadTimeout: (ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: a2698789-a518-42df-87a2-bc4bf731029e)')
+[rank0]:[W320 01:49:06.850293688 ProcessGroupNCCL.cpp:1250] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())

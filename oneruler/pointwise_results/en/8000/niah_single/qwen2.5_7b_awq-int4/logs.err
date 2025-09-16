@@ -1,0 +1,615 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+2025-03-20 00:21:22,100	INFO worker.py:1812 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:04<00:04,  4.25s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:15<00:00,  8.53s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:15<00:00,  7.89s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graph shapes:   3%|▎         | 1/35 [00:00<00:18,  1.86it/s]Capturing CUDA graph shapes:   6%|▌         | 2/35 [00:01<00:17,  1.90it/s]Capturing CUDA graph shapes:   9%|▊         | 3/35 [00:01<00:16,  1.94it/s]Capturing CUDA graph shapes:  11%|█▏        | 4/35 [00:02<00:15,  1.96it/s]Capturing CUDA graph shapes:  14%|█▍        | 5/35 [00:02<00:15,  1.97it/s]Capturing CUDA graph shapes:  17%|█▋        | 6/35 [00:03<00:14,  1.99it/s]Capturing CUDA graph shapes:  20%|██        | 7/35 [00:03<00:15,  1.76it/s]Capturing CUDA graph shapes:  23%|██▎       | 8/35 [00:04<00:14,  1.80it/s]Capturing CUDA graph shapes:  26%|██▌       | 9/35 [00:04<00:13,  1.86it/s]Capturing CUDA graph shapes:  29%|██▊       | 10/35 [00:05<00:13,  1.91it/s]Capturing CUDA graph shapes:  31%|███▏      | 11/35 [00:05<00:12,  1.95it/s]Capturing CUDA graph shapes:  34%|███▍      | 12/35 [00:06<00:11,  1.97it/s]Capturing CUDA graph shapes:  37%|███▋      | 13/35 [00:06<00:10,  2.00it/s]Capturing CUDA graph shapes:  40%|████      | 14/35 [00:07<00:10,  2.02it/s]Capturing CUDA graph shapes:  43%|████▎     | 15/35 [00:07<00:09,  2.04it/s]Capturing CUDA graph shapes:  46%|████▌     | 16/35 [00:08<00:09,  2.05it/s]Capturing CUDA graph shapes:  49%|████▊     | 17/35 [00:08<00:08,  2.08it/s]Capturing CUDA graph shapes:  51%|█████▏    | 18/35 [00:09<00:09,  1.81it/s]Capturing CUDA graph shapes:  54%|█████▍    | 19/35 [00:09<00:09,  1.78it/s]Capturing CUDA graph shapes:  57%|█████▋    | 20/35 [00:10<00:09,  1.61it/s]Capturing CUDA graph shapes:  60%|██████    | 21/35 [00:11<00:08,  1.71it/s]Capturing CUDA graph shapes:  63%|██████▎   | 22/35 [00:11<00:07,  1.80it/s]Capturing CUDA graph shapes:  66%|██████▌   | 23/35 [00:12<00:06,  1.86it/s]Capturing CUDA graph shapes:  69%|██████▊   | 24/35 [00:12<00:05,  1.93it/s]Capturing CUDA graph shapes:  71%|███████▏  | 25/35 [00:13<00:05,  1.94it/s]Capturing CUDA graph shapes:  74%|███████▍  | 26/35 [00:13<00:04,  1.99it/s]Capturing CUDA graph shapes:  77%|███████▋  | 27/35 [00:14<00:03,  2.04it/s]Capturing CUDA graph shapes:  80%|████████  | 28/35 [00:14<00:03,  1.84it/s]Capturing CUDA graph shapes:  83%|████████▎ | 29/35 [00:15<00:03,  1.91it/s]Capturing CUDA graph shapes:  86%|████████▌ | 30/35 [00:15<00:02,  1.98it/s]Capturing CUDA graph shapes:  89%|████████▊ | 31/35 [00:16<00:01,  2.05it/s]Capturing CUDA graph shapes:  91%|█████████▏| 32/35 [00:16<00:01,  2.10it/s]Capturing CUDA graph shapes:  94%|█████████▍| 33/35 [00:17<00:00,  2.13it/s]Capturing CUDA graph shapes:  97%|█████████▋| 34/35 [00:17<00:00,  2.15it/s]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:17<00:00,  2.17it/s]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:17<00:00,  1.95it/s]
+2025-03-20 00:22:44,320 - INFO - Loaded model from /scratch3/workspace/amekala_umass_edu-quantized_models2/hub/models--Qwen--Qwen2.5-7B-Instruct-AWQ/snapshots/b25037543e9394b818fdfca67ab2a00ecc7dd641. - CPU Memory usage: 8935.59 MB RSS
+2025-03-20 00:22:44,350 - INFO - GPU 0: 72223/81920 MB
+processing RULER inputs:   0%|          | 0/50 [00:00<?, ?it/s]2025-03-20 00:22:44,351 - INFO - Processing entry 0: 0
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.25it/s, est. speed input: 10235.22 toks/s, output: 18.80 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.25it/s, est. speed input: 10235.22 toks/s, output: 18.80 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.20it/s][A100%|██████████| 1/1 [00:00<00:00,  1.20it/s]
+2025-03-20 00:22:45,233 - INFO - Usage post generation - CPU Memory usage: 8943.46 MB RSS
+2025-03-20 00:22:45,260 - INFO - GPU 0: 73851/81920 MB
+2025-03-20 00:22:45,260 - INFO - Generated response for entry 0
+processing RULER inputs:   2%|▏         | 1/50 [00:00<00:44,  1.10it/s]2025-03-20 00:22:45,260 - INFO - Processing entry 1: 1
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.31it/s, est. speed input: 10680.09 toks/s, output: 19.62 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.31it/s, est. speed input: 10680.09 toks/s, output: 19.62 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.28it/s][A100%|██████████| 1/1 [00:00<00:00,  1.28it/s]
+2025-03-20 00:22:46,065 - INFO - Usage post generation - CPU Memory usage: 8944.34 MB RSS
+2025-03-20 00:22:46,087 - INFO - GPU 0: 73851/81920 MB
+2025-03-20 00:22:46,088 - INFO - Generated response for entry 1
+processing RULER inputs:   4%|▍         | 2/50 [00:01<00:41,  1.16it/s]2025-03-20 00:22:46,088 - INFO - Processing entry 2: 2
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10628.84 toks/s, output: 19.52 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10628.84 toks/s, output: 19.52 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:22:46,903 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:46,925 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:46,925 - INFO - Generated response for entry 2
+processing RULER inputs:   6%|▌         | 3/50 [00:02<00:39,  1.18it/s]2025-03-20 00:22:46,925 - INFO - Processing entry 3: 3
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10636.62 toks/s, output: 19.54 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10636.62 toks/s, output: 19.54 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:22:47,731 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:47,755 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:47,755 - INFO - Generated response for entry 3
+processing RULER inputs:   8%|▊         | 4/50 [00:03<00:38,  1.19it/s]2025-03-20 00:22:47,756 - INFO - Processing entry 4: 4
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10606.50 toks/s, output: 19.49 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10606.50 toks/s, output: 19.49 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:22:48,570 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:48,592 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:48,592 - INFO - Generated response for entry 4
+processing RULER inputs:  10%|█         | 5/50 [00:04<00:37,  1.19it/s]2025-03-20 00:22:48,592 - INFO - Processing entry 5: 5
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10636.37 toks/s, output: 19.54 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10636.37 toks/s, output: 19.54 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:22:49,399 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:49,420 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:49,420 - INFO - Generated response for entry 5
+processing RULER inputs:  12%|█▏        | 6/50 [00:05<00:36,  1.20it/s]2025-03-20 00:22:49,421 - INFO - Processing entry 6: 6
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10634.83 toks/s, output: 19.54 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10634.83 toks/s, output: 19.54 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:22:50,235 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:50,259 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:50,259 - INFO - Generated response for entry 6
+processing RULER inputs:  14%|█▍        | 7/50 [00:05<00:35,  1.19it/s]2025-03-20 00:22:50,260 - INFO - Processing entry 7: 7
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10538.16 toks/s, output: 19.36 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10538.16 toks/s, output: 19.36 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:22:51,084 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:51,108 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:51,108 - INFO - Generated response for entry 7
+processing RULER inputs:  16%|█▌        | 8/50 [00:06<00:35,  1.19it/s]2025-03-20 00:22:51,108 - INFO - Processing entry 8: 8
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10601.76 toks/s, output: 19.48 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10601.76 toks/s, output: 19.48 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:22:51,920 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:51,945 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:51,945 - INFO - Generated response for entry 8
+processing RULER inputs:  18%|█▊        | 9/50 [00:07<00:34,  1.19it/s]2025-03-20 00:22:51,945 - INFO - Processing entry 9: 9
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10631.81 toks/s, output: 19.53 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10631.81 toks/s, output: 19.53 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:22:52,752 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:52,773 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:52,773 - INFO - Generated response for entry 9
+processing RULER inputs:  20%|██        | 10/50 [00:08<00:33,  1.20it/s]2025-03-20 00:22:52,773 - INFO - Processing entry 10: 10
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10629.32 toks/s, output: 19.53 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10629.32 toks/s, output: 19.53 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:22:53,583 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:53,603 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:53,603 - INFO - Generated response for entry 10
+processing RULER inputs:  22%|██▏       | 11/50 [00:09<00:32,  1.20it/s]2025-03-20 00:22:53,603 - INFO - Processing entry 11: 11
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10613.40 toks/s, output: 19.50 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10613.40 toks/s, output: 19.50 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:22:54,420 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:54,446 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:54,446 - INFO - Generated response for entry 11
+processing RULER inputs:  24%|██▍       | 12/50 [00:10<00:31,  1.19it/s]2025-03-20 00:22:54,446 - INFO - Processing entry 12: 12
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10524.88 toks/s, output: 19.34 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10524.88 toks/s, output: 19.34 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:22:55,269 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:55,297 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:55,297 - INFO - Generated response for entry 12
+processing RULER inputs:  26%|██▌       | 13/50 [00:10<00:31,  1.19it/s]2025-03-20 00:22:55,297 - INFO - Processing entry 13: 13
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10558.56 toks/s, output: 19.40 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10558.56 toks/s, output: 19.40 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:22:56,110 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:56,132 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:56,132 - INFO - Generated response for entry 13
+processing RULER inputs:  28%|██▊       | 14/50 [00:11<00:30,  1.19it/s]2025-03-20 00:22:56,132 - INFO - Processing entry 14: 14
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10591.62 toks/s, output: 19.46 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10591.62 toks/s, output: 19.46 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.25it/s][A100%|██████████| 1/1 [00:00<00:00,  1.25it/s]
+2025-03-20 00:22:56,964 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:56,986 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:56,986 - INFO - Generated response for entry 14
+processing RULER inputs:  30%|███       | 15/50 [00:12<00:29,  1.19it/s]2025-03-20 00:22:56,986 - INFO - Processing entry 15: 15
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10628.76 toks/s, output: 19.53 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10628.76 toks/s, output: 19.53 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:22:57,795 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:57,815 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:57,815 - INFO - Generated response for entry 15
+processing RULER inputs:  32%|███▏      | 16/50 [00:13<00:28,  1.19it/s]2025-03-20 00:22:57,815 - INFO - Processing entry 16: 16
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10635.95 toks/s, output: 19.54 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10635.95 toks/s, output: 19.54 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:22:58,622 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:58,643 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:58,643 - INFO - Generated response for entry 16
+processing RULER inputs:  34%|███▍      | 17/50 [00:14<00:27,  1.20it/s]2025-03-20 00:22:58,643 - INFO - Processing entry 17: 17
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10634.61 toks/s, output: 19.54 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10634.61 toks/s, output: 19.54 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:22:59,450 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:22:59,476 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:22:59,476 - INFO - Generated response for entry 17
+processing RULER inputs:  36%|███▌      | 18/50 [00:15<00:26,  1.20it/s]2025-03-20 00:22:59,476 - INFO - Processing entry 18: 18
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10623.87 toks/s, output: 19.52 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10623.87 toks/s, output: 19.52 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:00,285 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:00,315 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:00,315 - INFO - Generated response for entry 18
+processing RULER inputs:  38%|███▊      | 19/50 [00:15<00:25,  1.20it/s]2025-03-20 00:23:00,315 - INFO - Processing entry 19: 19
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10616.36 toks/s, output: 19.51 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10616.36 toks/s, output: 19.51 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:01,122 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:01,148 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:01,148 - INFO - Generated response for entry 19
+processing RULER inputs:  40%|████      | 20/50 [00:16<00:25,  1.20it/s]2025-03-20 00:23:01,148 - INFO - Processing entry 20: 20
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.28it/s, est. speed input: 10429.62 toks/s, output: 19.16 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.28it/s, est. speed input: 10429.62 toks/s, output: 19.16 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.25it/s][A100%|██████████| 1/1 [00:00<00:00,  1.25it/s]
+2025-03-20 00:23:01,976 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:02,004 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:02,004 - INFO - Generated response for entry 20
+processing RULER inputs:  42%|████▏     | 21/50 [00:17<00:24,  1.19it/s]2025-03-20 00:23:02,004 - INFO - Processing entry 21: 21
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10612.23 toks/s, output: 19.50 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10612.23 toks/s, output: 19.50 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:02,835 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:02,856 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:02,856 - INFO - Generated response for entry 21
+processing RULER inputs:  44%|████▍     | 22/50 [00:18<00:23,  1.18it/s]2025-03-20 00:23:02,856 - INFO - Processing entry 22: 22
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10605.86 toks/s, output: 19.49 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10605.86 toks/s, output: 19.49 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:03,677 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:03,698 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:03,698 - INFO - Generated response for entry 22
+processing RULER inputs:  46%|████▌     | 23/50 [00:19<00:22,  1.19it/s]2025-03-20 00:23:03,698 - INFO - Processing entry 23: 23
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10613.25 toks/s, output: 19.49 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10613.25 toks/s, output: 19.49 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:04,510 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:04,530 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:04,530 - INFO - Generated response for entry 23
+processing RULER inputs:  48%|████▊     | 24/50 [00:20<00:21,  1.19it/s]2025-03-20 00:23:04,531 - INFO - Processing entry 24: 24
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.28it/s, est. speed input: 10443.88 toks/s, output: 19.19 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.28it/s, est. speed input: 10443.88 toks/s, output: 19.19 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.25it/s][A100%|██████████| 1/1 [00:00<00:00,  1.25it/s]
+2025-03-20 00:23:05,360 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:05,400 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:05,400 - INFO - Generated response for entry 24
+processing RULER inputs:  50%|█████     | 25/50 [00:21<00:21,  1.18it/s]2025-03-20 00:23:05,401 - INFO - Processing entry 25: 25
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10605.41 toks/s, output: 19.48 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10605.41 toks/s, output: 19.48 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:06,233 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:06,256 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:06,256 - INFO - Generated response for entry 25
+processing RULER inputs:  52%|█████▏    | 26/50 [00:21<00:20,  1.17it/s]2025-03-20 00:23:06,256 - INFO - Processing entry 26: 26
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10594.34 toks/s, output: 19.46 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10594.34 toks/s, output: 19.46 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:07,067 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:07,090 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:07,090 - INFO - Generated response for entry 26
+processing RULER inputs:  54%|█████▍    | 27/50 [00:22<00:19,  1.18it/s]2025-03-20 00:23:07,090 - INFO - Processing entry 27: 27
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10555.45 toks/s, output: 19.39 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10555.45 toks/s, output: 19.39 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:07,910 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:07,934 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:07,934 - INFO - Generated response for entry 27
+processing RULER inputs:  56%|█████▌    | 28/50 [00:23<00:18,  1.18it/s]2025-03-20 00:23:07,934 - INFO - Processing entry 28: 28
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10582.86 toks/s, output: 19.44 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10582.86 toks/s, output: 19.44 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:08,748 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:08,769 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:08,769 - INFO - Generated response for entry 28
+processing RULER inputs:  58%|█████▊    | 29/50 [00:24<00:17,  1.19it/s]2025-03-20 00:23:08,770 - INFO - Processing entry 29: 29
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10577.38 toks/s, output: 19.43 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10577.38 toks/s, output: 19.43 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:09,582 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:09,608 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:09,608 - INFO - Generated response for entry 29
+processing RULER inputs:  60%|██████    | 30/50 [00:25<00:16,  1.19it/s]2025-03-20 00:23:09,608 - INFO - Processing entry 30: 30
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10560.65 toks/s, output: 19.40 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10560.65 toks/s, output: 19.40 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:10,429 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:10,452 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:10,453 - INFO - Generated response for entry 30
+processing RULER inputs:  62%|██████▏   | 31/50 [00:26<00:16,  1.19it/s]2025-03-20 00:23:10,453 - INFO - Processing entry 31: 31
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10577.59 toks/s, output: 19.43 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10577.59 toks/s, output: 19.43 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:11,270 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:11,293 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:11,293 - INFO - Generated response for entry 31
+processing RULER inputs:  64%|██████▍   | 32/50 [00:26<00:15,  1.19it/s]2025-03-20 00:23:11,294 - INFO - Processing entry 32: 32
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10598.16 toks/s, output: 19.47 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10598.16 toks/s, output: 19.47 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:12,111 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:12,132 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:12,132 - INFO - Generated response for entry 32
+processing RULER inputs:  66%|██████▌   | 33/50 [00:27<00:14,  1.19it/s]2025-03-20 00:23:12,133 - INFO - Processing entry 33: 33
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.25it/s, est. speed input: 10208.22 toks/s, output: 18.76 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.25it/s, est. speed input: 10208.22 toks/s, output: 18.76 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.22it/s][A100%|██████████| 1/1 [00:00<00:00,  1.22it/s]
+2025-03-20 00:23:12,971 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:12,995 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:12,995 - INFO - Generated response for entry 33
+processing RULER inputs:  68%|██████▊   | 34/50 [00:28<00:13,  1.18it/s]2025-03-20 00:23:12,995 - INFO - Processing entry 34: 34
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10539.00 toks/s, output: 19.36 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10539.00 toks/s, output: 19.36 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.24it/s][A100%|██████████| 1/1 [00:00<00:00,  1.24it/s]
+2025-03-20 00:23:13,830 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:13,852 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:13,852 - INFO - Generated response for entry 34
+processing RULER inputs:  70%|███████   | 35/50 [00:29<00:12,  1.18it/s]2025-03-20 00:23:13,852 - INFO - Processing entry 35: 35
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10586.26 toks/s, output: 19.45 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10586.26 toks/s, output: 19.45 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:14,665 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:14,686 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:14,686 - INFO - Generated response for entry 35
+processing RULER inputs:  72%|███████▏  | 36/50 [00:30<00:11,  1.18it/s]2025-03-20 00:23:14,686 - INFO - Processing entry 36: 36
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10567.00 toks/s, output: 19.41 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10567.00 toks/s, output: 19.41 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:15,508 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:15,538 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:15,538 - INFO - Generated response for entry 36
+processing RULER inputs:  74%|███████▍  | 37/50 [00:31<00:11,  1.18it/s]2025-03-20 00:23:15,538 - INFO - Processing entry 37: 37
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10598.75 toks/s, output: 19.47 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10598.75 toks/s, output: 19.47 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:16,351 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:16,377 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:16,377 - INFO - Generated response for entry 37
+processing RULER inputs:  76%|███████▌  | 38/50 [00:32<00:10,  1.18it/s]2025-03-20 00:23:16,378 - INFO - Processing entry 38: 38
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10579.10 toks/s, output: 19.44 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10579.10 toks/s, output: 19.44 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:17,193 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:17,218 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:17,218 - INFO - Generated response for entry 38
+processing RULER inputs:  78%|███████▊  | 39/50 [00:32<00:09,  1.19it/s]2025-03-20 00:23:17,218 - INFO - Processing entry 39: 39
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10564.73 toks/s, output: 19.41 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10564.73 toks/s, output: 19.41 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:18,029 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:18,053 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:18,053 - INFO - Generated response for entry 39
+processing RULER inputs:  80%|████████  | 40/50 [00:33<00:08,  1.19it/s]2025-03-20 00:23:18,053 - INFO - Processing entry 40: 40
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.26it/s, est. speed input: 10318.36 toks/s, output: 18.96 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.26it/s, est. speed input: 10318.36 toks/s, output: 18.96 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.24it/s][A100%|██████████| 1/1 [00:00<00:00,  1.24it/s]
+2025-03-20 00:23:18,886 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:18,916 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:18,916 - INFO - Generated response for entry 40
+processing RULER inputs:  82%|████████▏ | 41/50 [00:34<00:07,  1.18it/s]2025-03-20 00:23:18,917 - INFO - Processing entry 41: 41
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10563.16 toks/s, output: 19.41 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10563.16 toks/s, output: 19.41 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:19,732 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:19,759 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:19,759 - INFO - Generated response for entry 41
+processing RULER inputs:  84%|████████▍ | 42/50 [00:35<00:06,  1.18it/s]2025-03-20 00:23:19,759 - INFO - Processing entry 42: 42
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10580.00 toks/s, output: 19.44 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10580.00 toks/s, output: 19.44 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:20,573 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:20,598 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:20,598 - INFO - Generated response for entry 42
+processing RULER inputs:  86%|████████▌ | 43/50 [00:36<00:05,  1.18it/s]2025-03-20 00:23:20,598 - INFO - Processing entry 43: 43
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10592.43 toks/s, output: 19.46 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10592.43 toks/s, output: 19.46 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:21,409 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:21,431 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:21,431 - INFO - Generated response for entry 43
+processing RULER inputs:  88%|████████▊ | 44/50 [00:37<00:05,  1.19it/s]2025-03-20 00:23:21,431 - INFO - Processing entry 44: 44
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10583.92 toks/s, output: 19.44 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10583.92 toks/s, output: 19.44 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:22,247 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:22,270 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:22,271 - INFO - Generated response for entry 44
+processing RULER inputs:  90%|█████████ | 45/50 [00:37<00:04,  1.19it/s]2025-03-20 00:23:22,271 - INFO - Processing entry 45: 45
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10560.81 toks/s, output: 19.40 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10560.81 toks/s, output: 19.40 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:23,083 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:23,105 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:23,105 - INFO - Generated response for entry 45
+processing RULER inputs:  92%|█████████▏| 46/50 [00:38<00:03,  1.19it/s]2025-03-20 00:23:23,105 - INFO - Processing entry 46: 46
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.28it/s, est. speed input: 10484.35 toks/s, output: 19.26 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.28it/s, est. speed input: 10484.35 toks/s, output: 19.26 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.25it/s][A100%|██████████| 1/1 [00:00<00:00,  1.25it/s]
+2025-03-20 00:23:23,928 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:23,955 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:23,956 - INFO - Generated response for entry 46
+processing RULER inputs:  94%|█████████▍| 47/50 [00:39<00:02,  1.19it/s]2025-03-20 00:23:23,956 - INFO - Processing entry 47: 47
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10568.36 toks/s, output: 19.41 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.29it/s, est. speed input: 10568.36 toks/s, output: 19.41 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.24it/s][A100%|██████████| 1/1 [00:00<00:00,  1.24it/s]
+2025-03-20 00:23:24,801 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:24,823 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:24,823 - INFO - Generated response for entry 47
+processing RULER inputs:  96%|█████████▌| 48/50 [00:40<00:01,  1.18it/s]2025-03-20 00:23:24,823 - INFO - Processing entry 48: 48
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10596.71 toks/s, output: 19.47 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10596.71 toks/s, output: 19.47 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+2025-03-20 00:23:25,642 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:25,663 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:25,664 - INFO - Generated response for entry 48
+processing RULER inputs:  98%|█████████▊| 49/50 [00:41<00:00,  1.18it/s]2025-03-20 00:23:25,664 - INFO - Processing entry 49: 49
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10576.55 toks/s, output: 19.43 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s, est. speed input: 10576.55 toks/s, output: 19.43 toks/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s][A100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+2025-03-20 00:23:26,476 - INFO - Usage post generation - CPU Memory usage: 8946.09 MB RSS
+2025-03-20 00:23:26,500 - INFO - GPU 0: 74443/81920 MB
+2025-03-20 00:23:26,500 - INFO - Generated response for entry 49
+processing RULER inputs: 100%|██████████| 50/50 [00:42<00:00,  1.18it/s]processing RULER inputs: 100%|██████████| 50/50 [00:42<00:00,  1.19it/s]
+2025-03-20 00:23:26,501 - INFO - Final output saved to results/en/8000/niah_single/qwen2.5_7b_awq-int4/outputs.jsonl
+[rank0]:[W320 00:23:30.229427285 ProcessGroupNCCL.cpp:1250] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())

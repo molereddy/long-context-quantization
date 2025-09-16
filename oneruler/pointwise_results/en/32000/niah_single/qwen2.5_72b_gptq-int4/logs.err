@@ -1,0 +1,108 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+2025-03-20 02:33:41,106	INFO worker.py:1812 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'original_max_position_embeddings'}
+Loading safetensors checkpoint shards:   0% Completed | 0/11 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:   9% Completed | 1/11 [00:09<01:31,  9.16s/it]
+Loading safetensors checkpoint shards:  18% Completed | 2/11 [00:18<01:22,  9.20s/it]
+Loading safetensors checkpoint shards:  27% Completed | 3/11 [00:28<01:16,  9.59s/it]
+Loading safetensors checkpoint shards:  36% Completed | 4/11 [00:38<01:07,  9.63s/it]
+Loading safetensors checkpoint shards:  45% Completed | 5/11 [00:47<00:56,  9.50s/it]
+Loading safetensors checkpoint shards:  55% Completed | 6/11 [00:56<00:46,  9.40s/it]
+Loading safetensors checkpoint shards:  64% Completed | 7/11 [01:00<00:30,  7.57s/it]
+Loading safetensors checkpoint shards:  73% Completed | 8/11 [01:09<00:24,  8.04s/it]
+Loading safetensors checkpoint shards:  82% Completed | 9/11 [01:16<00:15,  7.71s/it]
+Loading safetensors checkpoint shards:  91% Completed | 10/11 [01:25<00:08,  8.18s/it]
+Loading safetensors checkpoint shards: 100% Completed | 11/11 [01:36<00:00,  8.90s/it]
+Loading safetensors checkpoint shards: 100% Completed | 11/11 [01:36<00:00,  8.74s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graph shapes:   3%|▎         | 1/35 [00:02<01:18,  2.32s/it]Capturing CUDA graph shapes:   6%|▌         | 2/35 [00:03<00:51,  1.57s/it]Capturing CUDA graph shapes:   9%|▊         | 3/35 [00:04<00:42,  1.32s/it]Capturing CUDA graph shapes:  11%|█▏        | 4/35 [00:05<00:36,  1.19s/it]Capturing CUDA graph shapes:  14%|█▍        | 5/35 [00:06<00:33,  1.10s/it]Capturing CUDA graph shapes:  17%|█▋        | 6/35 [00:07<00:30,  1.05s/it]Capturing CUDA graph shapes:  20%|██        | 7/35 [00:08<00:29,  1.06s/it]Capturing CUDA graph shapes:  23%|██▎       | 8/35 [00:09<00:30,  1.14s/it]Capturing CUDA graph shapes:  26%|██▌       | 9/35 [00:10<00:29,  1.13s/it]Capturing CUDA graph shapes:  29%|██▊       | 10/35 [00:11<00:26,  1.07s/it]Capturing CUDA graph shapes:  31%|███▏      | 11/35 [00:12<00:25,  1.05s/it]Capturing CUDA graph shapes:  34%|███▍      | 12/35 [00:13<00:23,  1.03s/it]Capturing CUDA graph shapes:  37%|███▋      | 13/35 [00:14<00:21,  1.02it/s]Capturing CUDA graph shapes:  40%|████      | 14/35 [00:15<00:21,  1.04s/it]Capturing CUDA graph shapes:  43%|████▎     | 15/35 [00:16<00:19,  1.03it/s]Capturing CUDA graph shapes:  46%|████▌     | 16/35 [00:17<00:17,  1.08it/s]Capturing CUDA graph shapes:  49%|████▊     | 17/35 [00:18<00:16,  1.12it/s]Capturing CUDA graph shapes:  51%|█████▏    | 18/35 [00:19<00:14,  1.14it/s]Capturing CUDA graph shapes:  54%|█████▍    | 19/35 [00:19<00:14,  1.14it/s]Capturing CUDA graph shapes:  57%|█████▋    | 20/35 [00:20<00:13,  1.15it/s]Capturing CUDA graph shapes:  60%|██████    | 21/35 [00:21<00:12,  1.13it/s]Capturing CUDA graph shapes:  63%|██████▎   | 22/35 [00:22<00:11,  1.14it/s]Capturing CUDA graph shapes:  66%|██████▌   | 23/35 [00:23<00:10,  1.17it/s]Capturing CUDA graph shapes:  69%|██████▊   | 24/35 [00:24<00:09,  1.17it/s]Capturing CUDA graph shapes:  71%|███████▏  | 25/35 [00:25<00:08,  1.17it/s]Capturing CUDA graph shapes:  74%|███████▍  | 26/35 [00:25<00:07,  1.20it/s]Capturing CUDA graph shapes:  77%|███████▋  | 27/35 [00:26<00:06,  1.23it/s]Capturing CUDA graph shapes:  80%|████████  | 28/35 [00:27<00:05,  1.17it/s]Capturing CUDA graph shapes:  83%|████████▎ | 29/35 [00:28<00:05,  1.18it/s]Capturing CUDA graph shapes:  86%|████████▌ | 30/35 [00:29<00:05,  1.01s/it]Capturing CUDA graph shapes:  89%|████████▊ | 31/35 [00:31<00:04,  1.09s/it]Capturing CUDA graph shapes:  91%|█████████▏| 32/35 [00:31<00:03,  1.02s/it]Capturing CUDA graph shapes:  94%|█████████▍| 33/35 [00:32<00:02,  1.01s/it]Capturing CUDA graph shapes:  97%|█████████▋| 34/35 [00:33<00:00,  1.04it/s]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:35<00:00,  1.11s/it]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:35<00:00,  1.01s/it]
+2025-03-20 02:37:02,824 - INFO - Loaded model from /scratch3/workspace/amekala_umass_edu-quantized_models2/hub/models--Qwen--Qwen2.5-72B-Instruct-GPTQ-Int4_long_ctx/snapshots/da6e9d45661b91e02782f4ae2c6bb39c4a5b4821. - CPU Memory usage: 7234.78 MB RSS
+2025-03-20 02:37:02,867 - INFO - GPU 0: 72693/81920 MB
+2025-03-20 02:37:02,867 - INFO - GPU 1: 72691/81920 MB
+processing RULER inputs:   0%|          | 0/50 [00:00<?, ?it/s]2025-03-20 02:37:02,977 - INFO - Processing entry 0: 0
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:17<00:00, 17.85s/it, est. speed input: 1808.94 toks/s, output: 0.84 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:17<00:00, 17.85s/it, est. speed input: 1808.94 toks/s, output: 0.84 toks/s]
+
+100%|██████████| 1/1 [00:18<00:00, 18.03s/it][A100%|██████████| 1/1 [00:18<00:00, 18.03s/it]
+2025-03-20 02:37:21,213 - INFO - Usage post generation - CPU Memory usage: 7266.28 MB RSS
+2025-03-20 02:37:21,278 - INFO - GPU 0: 73141/81920 MB
+2025-03-20 02:37:21,278 - INFO - GPU 1: 73141/81920 MB
+2025-03-20 02:37:21,279 - INFO - Generated response for entry 0
+processing RULER inputs:   2%|▏         | 1/50 [00:18<14:56, 18.30s/it]2025-03-20 02:37:21,279 - INFO - Processing entry 1: 1
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:16<00:00, 16.75s/it, est. speed input: 1928.69 toks/s, output: 0.90 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:16<00:00, 16.75s/it, est. speed input: 1928.69 toks/s, output: 0.90 toks/s]
+
+100%|██████████| 1/1 [00:16<00:00, 16.82s/it][A100%|██████████| 1/1 [00:16<00:00, 16.82s/it]
+2025-03-20 02:37:38,183 - INFO - Usage post generation - CPU Memory usage: 7275.90 MB RSS
+2025-03-20 02:37:38,212 - INFO - GPU 0: 73141/81920 MB
+2025-03-20 02:37:38,212 - INFO - GPU 1: 73141/81920 MB
+2025-03-20 02:37:38,213 - INFO - Generated response for entry 1
+processing RULER inputs:   4%|▍         | 2/50 [00:35<13:59, 17.50s/it]2025-03-20 02:37:38,213 - INFO - Processing entry 2: 2
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:17<00:00, 17.30s/it, est. speed input: 1866.67 toks/s, output: 0.87 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:17<00:00, 17.30s/it, est. speed input: 1866.67 toks/s, output: 0.87 toks/s]
+
+100%|██████████| 1/1 [00:17<00:00, 17.37s/it][A100%|██████████| 1/1 [00:17<00:00, 17.37s/it]
+2025-03-20 02:37:55,677 - INFO - Usage post generation - CPU Memory usage: 7276.78 MB RSS
+2025-03-20 02:37:55,746 - INFO - GPU 0: 73141/81920 MB
+2025-03-20 02:37:55,746 - INFO - GPU 1: 73141/81920 MB
+2025-03-20 02:37:55,746 - INFO - Generated response for entry 2
+processing RULER inputs:   6%|▌         | 3/50 [00:52<13:43, 17.51s/it]2025-03-20 02:37:55,747 - INFO - Processing entry 3: 3
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:16<00:00, 16.75s/it, est. speed input: 1928.37 toks/s, output: 0.90 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:16<00:00, 16.75s/it, est. speed input: 1928.37 toks/s, output: 0.90 toks/s]
+
+100%|██████████| 1/1 [00:16<00:00, 16.84s/it][A100%|██████████| 1/1 [00:16<00:00, 16.84s/it]
+2025-03-20 02:38:12,703 - INFO - Usage post generation - CPU Memory usage: 7277.65 MB RSS
+2025-03-20 02:38:12,993 - INFO - GPU 0: 73141/81920 MB
+2025-03-20 02:38:12,993 - INFO - GPU 1: 73141/81920 MB
+2025-03-20 02:38:12,993 - INFO - Generated response for entry 3
+processing RULER inputs:   8%|▊         | 4/50 [01:10<13:20, 17.41s/it]2025-03-20 02:38:12,993 - INFO - Processing entry 4: 4
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:17<00:00, 17.07s/it, est. speed input: 1891.85 toks/s, output: 0.88 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:17<00:00, 17.07s/it, est. speed input: 1891.85 toks/s, output: 0.88 toks/s]
+
+100%|██████████| 1/1 [00:17<00:00, 17.15s/it][A100%|██████████| 1/1 [00:17<00:00, 17.15s/it]
+2025-03-20 02:38:30,246 - INFO - Usage post generation - CPU Memory usage: 7277.65 MB RSS
+2025-03-20 02:38:30,334 - INFO - GPU 0: 73141/81920 MB
+2025-03-20 02:38:30,334 - INFO - GPU 1: 73141/81920 MB
+2025-03-20 02:38:30,334 - INFO - Generated response for entry 4
+processing RULER inputs:  10%|█         | 5/50 [01:27<13:02, 17.38s/it]2025-03-20 02:38:30,334 - INFO - Processing entry 5: 5
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[A
+
+Processed prompts: 100%|██████████| 1/1 [00:16<00:00, 16.91s/it, est. speed input: 1909.52 toks/s, output: 0.89 toks/s][A[AProcessed prompts: 100%|██████████| 1/1 [00:16<00:00, 16.91s/it, est. speed input: 1909.52 toks/s, output: 0.89 toks/s]
+
+100%|██████████| 1/1 [00:17<00:00, 17.01s/it][A100%|██████████| 1/1 [00:17<00:00, 17.01s/it]
+2025-03-20 02:38:47,461 - INFO - Usage post generation - CPU Memory usage: 7277.65 MB RSS
+2025-03-20 02:38:47,561 - INFO - GPU 0: 73141/81920 MB
+2025-03-20 02:38:47,561 - INFO - GPU 1: 73141/81920 MB
+2025-03-20 02:38:47,561 - INFO - Generated response for entry 5
+processing RULER inputs:  12%|█▏        | 6/50 [01:44<12:42, 17.33s/it]2025-03-20 02:38:47,561 - INFO - Processing entry 6: 6
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A[Aslurmstepd-gpu022: error: *** JOB 29980821 ON gpu022 CANCELLED AT 2025-03-20T02:38:51 ***
+slurmstepd-gpu022: error: container_p_join: open failed for /var/tmp//gpu022/29980821/.ns: No such file or directory
+slurmstepd-gpu022: error: container_g_join(29980821): No such file or directory

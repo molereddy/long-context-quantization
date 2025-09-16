@@ -1,0 +1,38 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+2025-03-20 02:19:13,103	INFO worker.py:1812 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Loading safetensors checkpoint shards:   0% Completed | 0/15 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:   7% Completed | 1/15 [00:09<02:12,  9.44s/it]
+Loading safetensors checkpoint shards:  13% Completed | 2/15 [00:18<01:56,  8.98s/it]
+Loading safetensors checkpoint shards:  20% Completed | 3/15 [00:27<01:49,  9.13s/it]
+Loading safetensors checkpoint shards:  27% Completed | 4/15 [00:36<01:40,  9.17s/it]
+Loading safetensors checkpoint shards:  33% Completed | 5/15 [00:45<01:31,  9.10s/it]
+Loading safetensors checkpoint shards:  40% Completed | 6/15 [00:54<01:20,  8.93s/it]
+Loading safetensors checkpoint shards:  47% Completed | 7/15 [01:03<01:12,  9.08s/it]
+Loading safetensors checkpoint shards:  53% Completed | 8/15 [01:13<01:05,  9.35s/it]
+Loading safetensors checkpoint shards:  60% Completed | 9/15 [01:26<01:02, 10.38s/it]
+Loading safetensors checkpoint shards:  67% Completed | 10/15 [01:38<00:55, 11.08s/it]
+Loading safetensors checkpoint shards:  73% Completed | 11/15 [01:51<00:46, 11.52s/it]
+Loading safetensors checkpoint shards:  80% Completed | 12/15 [02:04<00:35, 11.88s/it]
+Loading safetensors checkpoint shards:  87% Completed | 13/15 [02:16<00:24, 12.06s/it]
+Loading safetensors checkpoint shards:  93% Completed | 14/15 [02:28<00:12, 12.10s/it]
+Loading safetensors checkpoint shards: 100% Completed | 15/15 [02:37<00:00, 11.14s/it]
+Loading safetensors checkpoint shards: 100% Completed | 15/15 [02:37<00:00, 10.51s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graph shapes:   3%|▎         | 1/35 [00:00<00:24,  1.37it/s]Capturing CUDA graph shapes:   6%|▌         | 2/35 [00:01<00:25,  1.32it/s]Capturing CUDA graph shapes:   9%|▊         | 3/35 [00:02<00:24,  1.32it/s]Capturing CUDA graph shapes:  11%|█▏        | 4/35 [00:03<00:24,  1.28it/s]Capturing CUDA graph shapes:  14%|█▍        | 5/35 [00:03<00:24,  1.24it/s]Capturing CUDA graph shapes:  17%|█▋        | 6/35 [00:04<00:23,  1.26it/s]Capturing CUDA graph shapes:  20%|██        | 7/35 [00:05<00:22,  1.23it/s]Capturing CUDA graph shapes:  23%|██▎       | 8/35 [00:06<00:21,  1.24it/s]Capturing CUDA graph shapes:  26%|██▌       | 9/35 [00:07<00:20,  1.28it/s]Capturing CUDA graph shapes:  29%|██▊       | 10/35 [00:07<00:19,  1.28it/s]Capturing CUDA graph shapes:  31%|███▏      | 11/35 [00:08<00:18,  1.30it/s]Capturing CUDA graph shapes:  34%|███▍      | 12/35 [00:09<00:17,  1.31it/s]Capturing CUDA graph shapes:  37%|███▋      | 13/35 [00:10<00:16,  1.30it/s]Capturing CUDA graph shapes:  40%|████      | 14/35 [00:10<00:16,  1.31it/s]Capturing CUDA graph shapes:  43%|████▎     | 15/35 [00:11<00:16,  1.23it/s]Capturing CUDA graph shapes:  46%|████▌     | 16/35 [00:12<00:15,  1.25it/s]Capturing CUDA graph shapes:  49%|████▊     | 17/35 [00:13<00:13,  1.31it/s]Capturing CUDA graph shapes:  51%|█████▏    | 18/35 [00:13<00:12,  1.38it/s]Capturing CUDA graph shapes:  54%|█████▍    | 19/35 [00:14<00:11,  1.44it/s]Capturing CUDA graph shapes:  57%|█████▋    | 20/35 [00:15<00:10,  1.47it/s]Capturing CUDA graph shapes:  60%|██████    | 21/35 [00:15<00:09,  1.47it/s]Capturing CUDA graph shapes:  63%|██████▎   | 22/35 [00:16<00:09,  1.42it/s]Capturing CUDA graph shapes:  66%|██████▌   | 23/35 [00:17<00:09,  1.31it/s]Capturing CUDA graph shapes:  69%|██████▊   | 24/35 [00:18<00:07,  1.39it/s]Capturing CUDA graph shapes:  71%|███████▏  | 25/35 [00:18<00:06,  1.50it/s]Capturing CUDA graph shapes:  74%|███████▍  | 26/35 [00:19<00:05,  1.59it/s]Capturing CUDA graph shapes:  77%|███████▋  | 27/35 [00:19<00:04,  1.67it/s]Capturing CUDA graph shapes:  80%|████████  | 28/35 [00:20<00:04,  1.69it/s]Capturing CUDA graph shapes:  83%|████████▎ | 29/35 [00:20<00:03,  1.69it/s]Capturing CUDA graph shapes:  86%|████████▌ | 30/35 [00:21<00:03,  1.66it/s]Capturing CUDA graph shapes:  89%|████████▊ | 31/35 [00:22<00:02,  1.65it/s]Capturing CUDA graph shapes:  91%|█████████▏| 32/35 [00:23<00:02,  1.26it/s]Capturing CUDA graph shapes:  94%|█████████▍| 33/35 [00:24<00:01,  1.01it/s]Capturing CUDA graph shapes:  97%|█████████▋| 34/35 [00:26<00:01,  1.10s/it]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:27<00:00,  1.12s/it]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:27<00:00,  1.28it/s]
+2025-03-20 02:23:31,065 - INFO - Loaded model from /scratch3/workspace/amekala_umass_edu-quantized_models2/hub/Meta-Llama-3.1-70B-Instruct-GPTQ-W8A16. - CPU Memory usage: 6766.11 MB RSS
+2025-03-20 02:23:31,098 - INFO - GPU 0: 72823/81920 MB
+2025-03-20 02:23:31,098 - INFO - GPU 1: 72821/81920 MB
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/oneruler/OneRuler/ruler.py", line 121, in <module>
+[rank0]:     process_data_dump(args.model_short_name, input_file_path, args.ctx, out_file_path, llm, tokenizer)
+[rank0]:   File "/work/pi_miyyer_umass_edu/anmol/oneruler/OneRuler/ruler.py", line 23, in process_data_dump
+[rank0]:     with open(input_file, 'r', encoding='utf-8') as f:
+[rank0]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: FileNotFoundError: [Errno 2] No such file or directory: '/work/pi_miyyer_umass_edu/yekyung/git/Multilang-RULER/scripts/benchmark_root/Llama3.1/en/32000/data/niah_single/validation.jsonl'
+[rank0]:[W320 02:23:36.447148803 ProcessGroupNCCL.cpp:1250] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

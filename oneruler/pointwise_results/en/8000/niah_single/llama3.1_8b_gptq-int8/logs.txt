@@ -1,0 +1,16 @@
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/condabin/conda
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/conda
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/conda-env
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/activate
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/bin/deactivate
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/etc/profile.d/conda.sh
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/etc/fish/conf.d/conda.fish
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/shell/condabin/Conda.psm1
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/shell/condabin/conda-hook.ps1
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /modules/opt/linux-ubuntu24.04-x86_64/miniforge3/24.7.1/etc/profile.d/conda.csh
+no change     /home/amekala_umass_edu/.bashrc
+No action taken.
+Wed Mar 19 20:01:17 EDT 2025
+INFO 03-20 00:01:26 __init__.py:183] Automatically detected platform cuda.
+Wed Mar 19 20:01:28 EDT 2025

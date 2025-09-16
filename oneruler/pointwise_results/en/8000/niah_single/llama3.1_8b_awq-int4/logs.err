@@ -1,0 +1,10 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+Traceback (most recent call last):
+  File "/work/pi_miyyer_umass_edu/anmol/oneruler/OneRuler/ruler.py", line 119, in <module>
+    process_data_dump(args.model_short_name, input_file_path, args.ctx, out_file_path)
+  File "/work/pi_miyyer_umass_edu/anmol/oneruler/OneRuler/ruler.py", line 24, in process_data_dump
+    with open(input_file, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/work/pi_miyyer_umass_edu/yekyung/git/Multilang-RULER/scripts/benchmark_root/Llama3.1/en/8000/data/niah_single/validation.jsonl'

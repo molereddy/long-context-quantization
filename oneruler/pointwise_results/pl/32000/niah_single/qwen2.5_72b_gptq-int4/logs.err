@@ -1,0 +1,4 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+slurmstepd-gpu021: error: *** JOB 29980823 ON gpu021 CANCELLED AT 2025-03-20T02:38:51 ***

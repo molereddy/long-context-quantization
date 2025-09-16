@@ -1,0 +1,43 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+2025-03-20 02:26:09,909	INFO worker.py:1812 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8268 [39m[22m
+Traceback (most recent call last):
+  File "/work/pi_miyyer_umass_edu/anmol/oneruler/OneRuler/ruler.py", line 116, in <module>
+    llm, tokenizer = load_model_and_tokenizer(args.model_short_name, context_size=args.ctx+extra_tokens)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/vq/load_and_generate.py", line 434, in load_model_and_tokenizer
+    _, model, tokenizer = get_vllm_model(hf_cfg, max_seq_len=context_size)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/vq/load_and_generate.py", line 371, in get_vllm_model
+    llm = LLM(model=model_id, tensor_parallel_size=num_gpus, 
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/utils.py", line 1039, in inner
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/entrypoints/llm.py", line 239, in __init__
+    self.llm_engine = self.engine_class.from_engine_args(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/engine/llm_engine.py", line 479, in from_engine_args
+    engine_config = engine_args.create_engine_config(usage_context)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/engine/arg_utils.py", line 1047, in create_engine_config
+    model_config = self.create_model_config()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/engine/arg_utils.py", line 972, in create_model_config
+    return ModelConfig(
+           ^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/config.py", line 282, in __init__
+    hf_config = get_config(self.model, trust_remote_code, revision,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/transformers_utils/config.py", line 182, in get_config
+    if is_gguf or file_or_path_exists(
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/vllm/transformers_utils/config.py", line 91, in file_or_path_exists
+    cached_filepath = try_to_load_from_cache(repo_id=model,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/work/pi_miyyer_umass_edu/anmol/conda_storage/.conda/envs/helmet/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/datasets/ai/llama3/meta-llama/models--meta-llama--Meta-Llama-3.1-70B-Instruct/snapshots/33101ce6ccc08fa6249c10a543ebfcac65173393'. Use `repo_type` argument if needed.
