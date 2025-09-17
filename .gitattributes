@@ -1,1 +1,2 @@
 Ruler/** filter=lfs diff=lfs merge=lfs -text
+factscore/verification.jsonl filter=lfs diff=lfs merge=lfs -text
